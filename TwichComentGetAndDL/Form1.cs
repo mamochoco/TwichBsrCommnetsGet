@@ -123,11 +123,6 @@ namespace TwichComentGetAndDL
                     BsrInfos.Add(tempBsrID);
                     commentcnt++;
                 }
-                else
-                {
-                    tempbsrinfo.Remove(strtemp);
-                }
-
             }
 
             textBox1.Text = "ログを取得しました\r\n(Log retrieved)"; ;
